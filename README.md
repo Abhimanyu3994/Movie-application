@@ -11,7 +11,7 @@ You can get a free API key by signing up at: [http://www.omdbapi.com/apikey.aspx
 ## Setup
  **Clone the repo**
    ```bash
-      git clone https://github.com/your-username/movie-search-app.git
+      git clone https://github.com/Abhimanyu3994/movie-application.git
    ```
  **Navigate into the folder**
    ```bash
