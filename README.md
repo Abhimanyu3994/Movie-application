@@ -1,7 +1,5 @@
 # Movie-application
 
-# Movie Search App
-
 A simple movie search app using the OMDb API.
 
 ## 🔗 Endpoints Used
@@ -56,13 +54,6 @@ The Layout adjusts based on the screen
 - Footer not sticking to bottom: Solved with Flexbox layout on body and min-height logic
 - Missing posters from API: Replaced with a clean placeholder image
 - Responsive grid layout: Used auto-fit and minmax() in CSS Grid for full responsiveness
-
-movie-search-app/
-│
-├── index.html       # Main HTML file
-├── styles.css       # All styling (responsive layout, modal, cards)
-├── app.js           # JavaScript logic: fetch, render, modal
-└── README.md        # Project documentation (this file)
 
 ## ScreenShots
   **Home Screen**
