@@ -15,7 +15,7 @@ You can get a free API key by signing up at: [http://www.omdbapi.com/apikey.aspx
    ```
  **Navigate into the folder**
    ```bash
-      cd movie-search-app
+      cd movie-application
    ```
  **Insert your API key**
   Open app.js
