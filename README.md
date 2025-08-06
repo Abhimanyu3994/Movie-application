@@ -35,13 +35,43 @@ You can get a free API key by signing up at: [http://www.omdbapi.com/apikey.aspx
 - Click "Search" to view matching results with posters and release years.
 - Click the "Movies" to view the imdb data(Genre,Plot,Runtime) in the movies
 
-## ⚠️ Challenges
-- Handled missing poster images using placeholders.
-- Managed network or API errors with user-friendly messages.
-
 ## Responsive Design
-  **The Layout adjusts based on the screen**
+The Layout adjusts based on the screen
+ - Mobile:1 column
+ - Tablet/Desktop:2-3 columns
+   Cards and buttons have hover/focus styles for a smoother experience, and everything is easy to read thanks to thoughtful spacing and typography.
+
+## Features
+ - Live movie search via OMDb API
+ -Image fallback for missing posters
+ -Modal popup with movie details
+ -Fully responsive layout
+ -Responsive handling (no results, network issues)
 
 ## 🌐 Tested On
 - Google Chrome
 - Mozilla Firefox
+
+## ⚠️ Challenges
+- Footer not sticking to bottom: Solved with Flexbox layout on body and min-height logic
+- Missing posters from API: Replaced with a clean placeholder image
+- Responsive grid layout: Used auto-fit and minmax() in CSS Grid for full responsiveness
+
+movie-search-app/
+│
+├── index.html       # Main HTML file
+├── styles.css       # All styling (responsive layout, modal, cards)
+├── app.js           # JavaScript logic: fetch, render, modal
+└── README.md        # Project documentation (this file)
+
+## ScreenShots
+  **Home Screen**
+  <img width="1365" height="642" alt="Screenshot 2025-08-06 104848" src="https://github.com/user-attachments/assets/6988df21-8a3c-491d-92e8-67b85ac653df" />
+  **Search Results**
+<img width="1365" height="630" alt="Screenshot 2025-08-06 104838" src="https://github.com/user-attachments/assets/d1baa446-1fa2-4094-988d-9518213b1705" />
+  **Movie Info**
+<img width="1364" height="680" alt="Screenshot 2025-08-06 104817" src="https://github.com/user-attachments/assets/5f1a6816-6ebd-4811-b4cb-0afdf2ff0c78" />
+
+## 👨‍💻 Created by
+**Abhimanyu S O**
+Aspiring full-stack developer | Frontend + Database enthusiast
