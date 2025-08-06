@@ -1,4 +1,4 @@
-const apikey="9dd45958"; //OMDB API key
+const apikey="Your Api Key"; //OMDB API key
 
 //DOM elements
 const searchBtn= document.getElementById("searchBtn");
@@ -97,4 +97,5 @@ function showModal(movie){
             modal.remove();
         }
     });
+
 }
