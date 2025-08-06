@@ -1,0 +1,132 @@
+html, body {
+  height: 100%;
+}
+body{
+    font-family: Arial,sans-serif;
+    margin:0;
+    padding:1rem;
+    background:#f2f2f2;
+    color:#333;
+}
+body {
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+.container{
+    min-height: calc(100vh - 60px);
+    flex:1;
+    max-width:900px;
+    margin:auto;
+    padding:1rem 1rem 20px;
+
+}
+.search{
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+}
+input#query{
+    flex:1;
+    padding:15px;
+    height:30px;
+    font-size:1.2rem;
+}
+button#searchBtn{
+    padding:10px 20px;
+    cursor:pointer;
+    background:#007BFF;
+    color:white;
+    border:none;
+    transition:background 0.3s ease;
+}
+input#query:focus,
+button#searchBtn:focus {
+  outline: 2px solid #007BFF;
+  outline-offset: 2px;
+}
+button#searchBtn:hover{
+    background:#0056b3;
+    transform: scale(1.02);
+}
+.movie-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:1rem;
+}
+.movie-card{
+    background:white;
+    border-radius:5px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.1);
+    overflow:hidden;
+    transition:transform 0.3s ease;
+}
+.movie-card:hover{
+    transform:scale(1.02);
+}
+.movie-card img{
+    width:100%;
+    height:370px;
+    object-fit:cover;
+
+}
+.movie-card h3{
+    margin:10px 10px 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.movie-card p{
+    margin:0px 10px 10px;
+    color:#666;
+    font-size: 1rem;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  max-width: 500px;
+  width: 90%;
+  border-radius: 8px;
+  position: relative;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+}
+
+.modal-content .close {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer{
+  background-color: #1e1e1e;  
+  color: #f1f1f1;             
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+  position: relative;         
+  bottom: 0;
+  width: 100%;
+}
