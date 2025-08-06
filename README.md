@@ -66,11 +66,11 @@ movie-search-app/
 
 ## ScreenShots
   **Home Screen**
-  <img width="1365" height="642" alt="Screenshot 2025-08-06 104848" src="https://github.com/user-attachments/assets/6988df21-8a3c-491d-92e8-67b85ac653df" />
+  <img width="1364" height="680" alt="Screenshot 2025-08-06 104817" src="https://github.com/user-attachments/assets/5f1a6816-6ebd-4811-b4cb-0afdf2ff0c78" />
   **Search Results**
 <img width="1365" height="630" alt="Screenshot 2025-08-06 104838" src="https://github.com/user-attachments/assets/d1baa446-1fa2-4094-988d-9518213b1705" />
   **Movie Info**
-<img width="1364" height="680" alt="Screenshot 2025-08-06 104817" src="https://github.com/user-attachments/assets/5f1a6816-6ebd-4811-b4cb-0afdf2ff0c78" />
+ <img width="1365" height="642" alt="Screenshot 2025-08-06 104848" src="https://github.com/user-attachments/assets/6988df21-8a3c-491d-92e8-67b85ac653df" />
 
 ## 👨‍💻 Created by
 **Abhimanyu S O**
