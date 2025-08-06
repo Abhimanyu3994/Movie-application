@@ -12,15 +12,22 @@ You can get a free API key by signing up at: [http://www.omdbapi.com/apikey.aspx
 
 ## Setup
  **Clone the repo**
-   `git clone https://github.com/your-username/movie-search-app.git`
+   ```bash
+      git clone https://github.com/your-username/movie-search-app.git
+   ```
  **Navigate into the folder**
-   `cd movie-search-app`
+   ```bash
+      cd movie-search-app
+   ```
  **Insert your API key**
   Open app.js
   Replace this line: 
-        const apiKey = "Your api key"; with your actual api key (eg:9dd45758)
+        ```bash 
+        const apiKey = "Your api key";
+        ```
+         with your actual api key (eg:9dd45758)
  **Run it**
-   Open index.html in your browser (double-click or use VS Code Live Server)
+   Open `index.html` in your browser (double-click or use VS Code Live Server)
 
 
 ## 🧑‍💻 Usage
@@ -32,8 +39,8 @@ You can get a free API key by signing up at: [http://www.omdbapi.com/apikey.aspx
 - Handled missing poster images using placeholders.
 - Managed network or API errors with user-friendly messages.
 
-##Responsive Design
-  The Layout adjusts based on the screen
+## Responsive Design
+  **The Layout adjusts based on the screen**
 
 ## 🌐 Tested On
 - Google Chrome
